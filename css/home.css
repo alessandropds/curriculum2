@@ -1,0 +1,416 @@
+@charset "utf-8";
+ul.portfolio {
+    margem: 0;
+    preenchimento: 0;
+}
+ul.portfolio h1 {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 18px;
+    peso da fonte: normal;
+    altura da linha: 35px;
+    margem: 0;
+    preenchimento: 0;
+    alinhamento de texto: esquerda;
+    largura: automático;
+}
+ul.portfolio li {
+    background: url ("../ img / macbook-small.png") scroll sem repetição 0 0 transparente;
+    flutuar: esquerda;
+    altura: 220px;
+    estilo de lista: nenhum fora de nenhum;
+    margem: 30px 0;
+    esboço: 0 nenhum;
+    preenchimento: 0;
+    largura: 320px;
+}
+ul.portfolio li: último filho {
+    background: url ("../ img / macbook-small.png") scroll sem repetição 0 0 transparente;
+    flutuar: esquerda;
+    altura: 250px;
+    estilo de lista: nenhum fora de nenhum;
+    margem: 30px 0 50px;
+    esboço: 0 nenhum;
+    preenchimento: 0;
+    largura: 320px;
+}
+ul.portfolio li img {
+    altura: 130px;
+   / * margem: 12px 0 0 53px; * /
+   margem: 0;
+    opacidade: 1;
+    esboço: 0 nenhum;
+    preenchimento: 0;
+    transição: opacidade 1s atenua 0,2s;
+	-moz-transição: opacidade 1s atenua 0,2s;
+	-webkit-transição: opacidade 1s facilidade 0,2s;
+	-o-transição: opacidade 1s atenua 0,2s;
+    largura: 210px;
+}
+ul.portfolio li img: hover {
+    opacidade: 0,7;
+    esboço: 0 nenhum;
+    transição: opacidade 1s atenua 0,2s;
+	-moz-transição: opacidade 1s atenua 0,2s;
+	-webkit-transição: opacidade 1s facilidade 0,2s;
+	-o-transição: opacidade 1s atenua 0,2s;
+}
+.descricao {
+    margem: 0;
+    preenchimento: 0;
+}
+.descricao a {
+	decoração de texto: nenhum;
+}
+.descricao span {
+    cor de fundo: # F8F9F9;
+    cor: # B2B2B3;
+    display: bloco;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    estilo da fonte: itálico;
+    altura: automático;
+    alinhamento de texto: centro;
+}
+.descricao h2 {
+    cor de fundo: # F8F9F9;
+    cor: # 0097DB;
+    display: bloco;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 15px;
+    peso da fonte: normal;
+    altura: automático;
+    margem: 25px 0 0;
+    alinhamento de texto: centro;
+}
+
+
+/*flutuar*/
+.view-décimo img {
+    transformar: escala Y (1);
+    transição: todos os 0s de fácil entrada 0.7s;
+	-moz-transição: todos os 0s de fácil entrada 0.7s;
+	-webkit-transição: todos os 0s de fácil entrada 0.7s;
+	-o-transição: todos os 0s de fácil entrada 0.7s;
+}
+.view-décimo .mask {
+    transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+}
+.view-décimo h2 {
+    fundo: nenhum repetir rolar 0 0 transparente;
+    borda inferior: 1px solid rgba (0, 0, 0, 0,3);
+    cor: # 333333;
+    margem: 20px 40px 0;
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+}
+
+/*Facebook*/
+.view-décimo h5 {
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+}
+/*Facebook*/
+
+.view-décimo p {
+    cor: # 333333;
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+}
+.view-décimo a.info {
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+}
+.view-décimo: hover img {
+    opacidade: 0;
+    / * transformar: escala (1); * /
+}
+.view-décimo: hover .mask {
+    opacidade: 1;
+}
+
+
+.view-décimo: hover h2, .view-décimo: hover p, .view-décimo: hover h5, .view-décimo: hover a.info {
+    opacidade: 1;
+    transformar: escala (1);
+}
+
+
+.Visão {
+	background: url ("../ img / bg-tela-hover.jpg") centro de rolagem sem repetição #FFFFFF;
+    box-shadow: 1px 1px 2px #FFFFFF;
+    cursor: padrão;
+    flutuar: esquerda;
+    altura: 130px;
+    margem: 12px 0 0 53px;
+    estouro: oculto;
+    posição: relativa;
+    alinhamento de texto: centro;
+    largura: 210px;
+}
+.view .mask, .view .content {
+    altura: 130px;
+    esquerda: 0;
+    estouro: oculto;
+    posição: absoluta;
+    topo: 0;
+    largura: 210px;
+}
+.view img {
+    display: bloco;
+    posição: relativa;
+}
+.view h2 {
+    fundo: nenhuma repetição de rolagem 0 0 rgba (0, 151, 219, 0,8);
+    cor: #FFFFFF;
+    tamanho da fonte: 15px;
+    margem: 25px 0 0;
+    preenchimento: 10px;
+    posição: relativa;
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+}
+.view h2 a, .view h2 a: hover {
+    
+    cor: #FFFFFF;
+    decoração de texto: nenhum;
+}
+.view p {
+    cor: #FFFFFF;
+    família da fonte: Georgia, serif;
+    tamanho da fonte: 12px;
+    estilo da fonte: itálico;
+    preenchimento: 10px 20px 20px;
+    posição: relativa;
+    alinhamento de texto: centro;
+}
+
+
+
+/*Facebook*/
+.view h5 {
+    fundo: nenhum;
+    cor: #FFFFFF;
+    tamanho da fonte: 11px;
+    margem: 0 0 0 55px;
+    preenchimento: 10px;
+    posição: relativa;
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+}
+
+/*Facebook*/
+
+
+
+
+.view a.info {
+    borda: médio nenhum;
+    cor: # 0097DB;
+    display: bloco embutido;
+    margem: 10px 0 0;
+    preenchimento: 0;
+    decoração de texto: nenhum;
+    transformação de texto: maiúsculas;
+}
+
+/ * teste * /
+.view h5.info {
+    borda: médio nenhum;
+    cor: # 0097DB;
+    display: bloco embutido;
+    margem: 0;
+    preenchimento: 0;
+    decoração de texto: nenhum;
+    transformação de texto: maiúsculas;
+}
+/ * teste * /
+
+@media screen e (largura máxima: 768 px)
+{
+	ul.portfolio {
+    margem: 0;
+    preenchimento: 0;
+}
+ul.portfolio h1 {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 18px;
+    peso da fonte: normal;
+    altura da linha: 35px;
+    margem: 0;
+    preenchimento: 0;
+    alinhamento de texto: esquerda;
+    largura: automático;
+}
+ul.portfolio li {
+    background: url ("../ img / macbook-small.png") scroll sem repetição 0 0 transparente;
+    flutuar: esquerda;
+    altura: 220px;
+    estilo de lista: nenhum fora de nenhum;
+    margem: 30px;
+    esboço: 0 nenhum;
+    preenchimento: 0;
+    largura: 320px;
+}
+ul.portfolio li: último filho {
+    background: url ("../ img / macbook-small.png") scroll sem repetição 0 0 transparente;
+    flutuar: esquerda;
+    altura: 250px;
+    estilo de lista: nenhum fora de nenhum;
+    margem: 30px;
+    esboço: 0 nenhum;
+    preenchimento: 0;
+    largura: 320px;
+}
+ul.portfolio li img {
+    altura: 130px;
+    margem: 0;
+    opacidade: 1;
+    esboço: 0 nenhum;
+    preenchimento: 0;
+    transição: opacidade 1s atenua 0,2s;
+    largura: 210px;
+}
+ul.portfolio li img: hover {
+    opacidade: 0,7;
+    esboço: 0 nenhum;
+    transição: opacidade 1s atenua 0,2s;
+}
+#descricao {
+    margem: 0;
+    preenchimento: 0;
+}
+#descricao a {
+    decoração de texto: nenhum;
+}
+#descricao span {
+    cor de fundo: # F8F9F9;
+    cor: # B2B2B3;
+    display: bloco;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    estilo da fonte: itálico;
+    altura: automático;
+    alinhamento de texto: centro;
+}
+#descricao h2 {
+    cor de fundo: # F8F9F9;
+    cor: # 0097DB;
+    display: bloco;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 15px;
+    peso da fonte: normal;
+    altura: automático;
+    margem: 25px 0 0;
+    alinhamento de texto: centro;
+}
+.view-décimo img {
+    transformar: escala Y (1);
+    transição: todos os 0s de fácil entrada 0.7s;
+}
+.view-décimo .mask {
+    transição: todos os 0,5s 0s lineares;
+}
+.view-décimo h2 {
+    fundo: nenhum repetir rolar 0 0 transparente;
+    borda inferior: 1px solid rgba (0, 0, 0, 0,3);
+    cor: # 333333;
+    margem: 20px 40px 0;
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+}
+.view-décimo p {
+    cor: # 333333;
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+}
+.view-décimo a.info {
+    opacidade: 0;
+    transformar: escala (0);
+    transição: todos os 0,5s 0s lineares;
+}
+.view-décimo: hover img {
+    opacidade: 0;
+}
+.view-décimo: hover .mask {
+    opacidade: 1;
+}
+.view-décimo: hover h2, .view-décimo: hover p, .view-décimo: hover a.info {
+    opacidade: 1;
+    transformar: escala (1);
+}
+.Visão {
+    background: url ("../ img / bg-tela-hover.jpg") centro de rolagem sem repetição #FFFFFF;
+    box-shadow: 1px 1px 2px #FFFFFF;
+    cursor: padrão;
+    flutuar: esquerda;
+    altura: 130px;
+    margem: 12px 0 0 53px;
+    estouro: oculto;
+    posição: relativa;
+    alinhamento de texto: centro;
+    largura: 210px;
+}
+.view .mask, .view .content {
+    altura: 130px;
+    esquerda: 0;
+    estouro: oculto;
+    posição: absoluta;
+    topo: 0;
+    largura: 210px;
+}
+.view img {
+    display: bloco;
+    posição: relativa;
+}
+.view h2 {
+    fundo: nenhuma repetição de rolagem 0 0 rgba (0, 151, 219, 0,8);
+    cor: #FFFFFF;
+    tamanho da fonte: 15px;
+    margem: 20px 0 0;
+    preenchimento: 10px;
+    posição: relativa;
+    alinhamento de texto: centro;
+    transformação de texto: maiúsculas;
+}
+.view p {
+    cor: #FFFFFF;
+    família da fonte: Georgia, serif;
+    tamanho da fonte: 12px;
+    estilo da fonte: itálico;
+    preenchimento: 10px 20px 20px;
+    posição: relativa;
+    alinhamento de texto: centro;
+}
+.view a.info {
+    borda: médio nenhum;
+    cor: # 0097DB;
+    display: bloco embutido;
+    margem: 20px 0 0;
+    preenchimento: 0;
+    decoração de texto: nenhum;
+    transformação de texto: maiúsculas;
+}
+}

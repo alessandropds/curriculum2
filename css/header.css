@@ -1,0 +1,71 @@
+@import "http://fonts.googleapis.com/css?family=Scada:700";
+
+/*Cabeçalho*/
+body> header {
+    border-bottom: 1px solid #ddd;
+    altura: 120px;
+    margem: 20px automático;
+    preenchimento: 0;
+    largura: 980px;
+}
+#logo {
+    flutuar: esquerda;
+    altura: automático;
+    preenchimento: 20px 0 0;
+    largura: 350px;
+}
+
+#logo span {
+    cor: # D2D2D3;
+	tamanho da fonte: 18px;
+	preenchimento: 0 0 0 20px;
+}
+#telefone {
+    flutuar: certo;
+    altura: 20px;
+    margem: 0;
+    preenchimento: 0;
+    largura: 200px;
+}
+#telefone p {
+    tamanho da fonte: 16px;
+    margem: 0;
+    preenchimento: 10px 20px;
+    alinhamento de texto: direita;
+	cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+}
+/*Cabeçalho*/
+
+@media screen e (largura máxima: 768 px)
+{
+	body> header {
+    borda inferior: 1px sólido #DDDDDD;
+    altura: 120px;
+    margem: 20px automático;
+    preenchimento: 0;
+    largura: 748px;
+}
+#logo {
+    flutuar: esquerda;
+    altura: automático;
+    preenchimento: 20px 0 0;
+    largura: 350px;
+}
+#telefone {
+    flutuar: certo;
+    altura: 20px;
+    margem: 0;
+    preenchimento: 0 20px 0 0;
+    largura: 200px;
+}
+#telefone p {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 16px;
+    margem: 0;
+    preenchimento: 10px 0;
+    alinhamento de texto: direita;
+}
+
+}

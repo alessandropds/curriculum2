@@ -1,0 +1,58 @@
+@charset "utf-8";
+/ * Documento CSS * /
+
+.progress_container {
+	preenchimento: 1px;
+	largura: 448px;
+	altura: 9px;
+	estouro: oculto;
+	background: url("/Users/user/.progress_container");
+	}
+	
+.progress_bar, .progress_bar2, .progress_bar3, .progress_bar4, .progress_bar5, .progress_bar6, .progress_bar7, .progress_bar8, .progress_bar9, .progress_bar10, .progress_bar11, .progress_bar7, .progress_bar8, .progress_bar9, .progress_bar10, .progress_bar11, .progress_bar7 .14
+	altura: 9px;
+	largura: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	raio da borda: 5px;
+	fundo: url("/imagens/progress_bar2");
+}
+
+
+/ * ------------------------------------------------ ----------------------------------- * /
+/ * Tipsy Tooltip style
+/ * ------------------------------------------------ ----------------------------------- * /  
+
+  .tipsy {preenchimento: 5px; tamanho da fonte: 11px; posição: absoluta; índice z: 100000; }
+  .tipsy-inner {padding: 6px 8px 6px 8px; cor de fundo: preto; cor branca; largura máxima: 200px; alinhamento de texto: centro; }
+  .tipsy-inner {border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  .tipsy-arrow {posição: absoluto; fundo: url= imagens/tipsy.gif sem repetição superior esquerdo; largura: 9px; altura: 5px; }
+  .tipsy-n .tipsy-arrow {top: 0; esquerda: 50%; margem esquerda: -4px; }
+  .tipsy-nw .tipsy-arrow {top: 0; esquerda: 10px; }
+  .tipsy-ne .tipsy-arrow {top: 0; direita: 10px; }
+  .tipsy-s .tipsy-arrow {inferior: 0; esquerda: 50%; margem esquerda: -4px; posição de fundo: inferior esquerdo; }
+  .tipsy-sw .tipsy-arrow {inferior: 0; esquerda: 10px; posição de fundo: inferior esquerdo; }
+  .tipsy-se .tipsy-arrow {inferior: 0; direita: 10px; posição de fundo: inferior esquerdo; }
+  .tipsy-e .tipsy-arrow {top: 50%; margin-top: -4px; direita: 0; largura: 5px; altura: 9px; posição de fundo: canto superior direito; }
+  .tipsy-w .tipsy-arrow {top: 50%; margin-top: -4px; esquerda: 0; largura: 5px; altura: 9px; }	
+		
+@media screen e (largura máxima: 768 px)
+{
+
+.progress_container {
+	preenchimento: 1px;
+	largura: 398px;
+	altura: 9px;
+	estouro: oculto;
+	background: url("/imagens/progress_container.png");
+	}
+	
+.progress_bar, .progress_bar2, .progress_bar3, .progress_bar4, .progress_bar5, .progress_bar6, .progress_bar7, .progress_bar8, .progress_bar9 {
+	altura: 9px;
+	largura: 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	raio da borda: 5px;
+	fundo: url("/imagens/progress_bar2");
+}
+}

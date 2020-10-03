@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import "http://fonts.googleapis.com/css?family=Rye";
+
+/ * Formulário * /
+.formcampo {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    borda: 1px sólido # e1e1e1;
+    cor: # 1A1A1A;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    altura: 43px;
+    altura da linha: 20px;
+    margem: 0 0 20px;
+    preenchimento: 0 0 0 10px;
+    largura: 550px;
+}
+.formcampo: focus {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    cor: # 666666;
+}
+.formmsg {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    borda: 1px sólido # e1e1e1;
+    cor: # 1A1A1A;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    altura: 150px;
+    altura da linha: 20px;
+    margem: 0 0 20px;
+    preenchimento: 0 0 0 10px;
+    largura: 550px;
+}
+.formmsg: focus {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    cor: # 666666;
+}
+.btEnviar {
+    fundo: nenhum repetir rolar 0 0 # 0097DB;
+    borda: 1px sólido # 0097DB;
+    border-radius: 5px 5px 5px 5px;
+    cor: #FFFFFF;
+    cursor: ponteiro;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 20px;
+    margem: 0 0 0 215px;
+    preenchimento: 10px 30px;
+    transformação de texto: maiúsculas;
+	transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+}
+.btEnviar: hover {
+    fundo: nenhum repetir rolar 0 0 #FFFFFF;
+    borda: 1px sólido # 0097DB;
+    cor: # 0097DB;
+	transição: todos os 0,5s 0s lineares;
+	-moz-transição: todos os 0,5s 0s lineares;
+	-webkit-transição: todos os 0,5s lineares 0s;
+	-o-transição: todos os 0,5s 0s lineares;
+	
+}
+.contato-txt {
+    cor: # 515151;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 13px;
+    preenchimento: 5px;
+    largura: 150px;
+}
+.formselect {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    borda: médio nenhum;
+    cor: # 1A1A1A;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    altura: 43px;
+    altura da linha: 20px;
+    margem: 0 0 20px;
+    preenchimento: 0 0 0 10px;
+    largura: 550px;
+}
+
+.skype {
+    background: url ("../ img / ico-skype.png") sem repetição rolar para a esquerda no centro transparente;
+}
+.skype: hover {
+    imagem de fundo: url ("../ img / ico-skype-active.png");
+}
+
+#contact .links {
+    display: bloco;
+    tamanho da fonte: 0.923em;
+    altura: 45px;
+    espaçamento entre letras: 0,23em;
+    altura da linha: 40px;
+    margem: 20px 0;
+    padding-left: 65px;
+    sombra do texto: 0 1px 3px # 26282D;
+    transformação de texto: maiúsculas;
+}
+#contact .links: hover {
+    cor: # 00FFF1;
+}
+/ * Formulário * /
+
+@media screen e (largura máxima: 768 px)
+{
+.formcampo {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    borda: 1px sólido # E1E1E1;
+    cor: # 1A1A1A;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    altura: 43px;
+    altura da linha: 20px;
+    margem: 0 0 20px;
+    preenchimento: 0 0 0 10px;
+    largura: 400px;
+}
+.formcampo: focus {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    cor: # 666666;
+}
+.formmsg {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    borda: 1px sólido # E1E1E1;
+    cor: # 1A1A1A;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    altura: 150px;
+    altura da linha: 20px;
+    margem: 0 0 20px;
+    preenchimento: 0 0 0 10px;
+    largura: 400px;
+}
+.formmsg: focus {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    cor: # 666666;
+}
+.btEnviar {
+    fundo: nenhum repetir rolar 0 0 # 0097DB;
+    borda: 1px sólido # 0097DB;
+    border-radius: 5px 5px 5px 5px;
+    cor: #FFFFFF;
+    cursor: ponteiro;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 20px;
+    margem: 0 0 0 150px;
+    preenchimento: 10px 30px;
+    transformação de texto: maiúsculas;
+    transição: todos os 0,5s 0s lineares;
+}
+.btEnviar: hover {
+    fundo: nenhum repetir rolar 0 0 #FFFFFF;
+    borda: 1px sólido # 0097DB;
+    cor: # 0097DB;
+    transição: todos os 0,5s 0s lineares;
+}
+.contato-txt {
+    cor: # 515151;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 13px;
+    preenchimento: 5px;
+    largura: 150px;
+}
+.formselect {
+    fundo: nenhum repetir rolar 0 0 # F2F2F2;
+    borda: médio nenhum;
+    cor: # 1A1A1A;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    altura: 43px;
+    altura da linha: 20px;
+    margem: 0 0 20px;
+    preenchimento: 0 0 0 10px;
+    largura: 550px;
+}
+.skype {
+    background: url ("../ img / ico-skype.png") sem repetição rolar para a esquerda no centro transparente;
+}
+.skype: hover {
+    imagem de fundo: url ("../ img / ico-skype-active.png");
+}
+#contact .links {
+    display: bloco;
+    tamanho da fonte: 0.923em;
+    altura: 45px;
+    espaçamento entre letras: 0,23em;
+    altura da linha: 40px;
+    margem: 20px 0;
+    padding-left: 65px;
+    sombra do texto: 0 1px 3px # 26282D;
+    transformação de texto: maiúsculas;
+}
+#contact .links: hover {
+    cor: # 00FFF1;
+}
+
+}

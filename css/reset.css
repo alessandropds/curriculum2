@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+artigo, à parte, detalhes, figcaption, figura, rodapé, cabeçalho, hgroup, nav, seção, resumo {
+    display: bloco;
+}
+áudio, tela, vídeo {
+    display: bloco embutido;
+}
+áudio: não ([controles]) {
+    Mostrar nenhum;
+    altura: 0;
+}
+[oculto] {
+    Mostrar nenhum;
+}
+html {
+    tamanho da fonte: 100%;
+}
+html, botão, entrada, selecionar, textarea {
+    família da fonte: sans-serif;
+}
+corpo {
+    margem: 0;
+}
+um foco {
+    esboço: nenhum;
+}
+a: ativo, a: hover {
+	esboço: nenhum;
+}
+abbr [título] {
+    border-bottom: 1px pontilhado;
+}
+b, forte {
+    intensidade da fonte: Negrito;
+}
+bloco de citação {
+    margem: 1em 40px;
+}
+dfn {
+    estilo da fonte: itálico;
+}
+marca {
+    fundo: nenhum repetir rolar 0 0 # FFFF00;
+    cor: # 000000;
+}
+p, pre {
+    margem: 1em 0;
+}
+código, kbd, pré, samp {
+    família da fonte: monoespaço, serif;
+    tamanho da fonte: 1em;
+}
+pre {
+    espaço em branco: pre-wrap;
+    quebra de linha: quebra de palavra;
+}
+q {
+    citações: nenhum;
+}
+q: antes, q: depois {
+    conteúdo: nenhum;
+}
+pequeno {
+    tamanho da fonte: 80%;
+}
+sub, sup {
+    tamanho da fonte: 75%;
+    altura da linha: 0;
+    posição: relativa;
+    alinhamento vertical: linha de base;
+}
+sup {
+    topo: -0,5em;
+}
+sub {
+    inferior: -0,25em;
+}
+dl, menu, ol, ul {
+    margem: 1em 0;
+}
+dd {
+    margem: 0 0 0 40px;
+}
+menu, ol, ul {
+    preenchimento: 0 0 0 40px;
+}
+nav ul, nav ol {
+    estilo de lista: nenhum fora de nenhum;
+}
+img {
+    fronteira: 0 nenhum;
+}
+svg: not (: root) {
+    estouro: oculto;
+}
+figura {
+    margem: 0;
+}
+Formato {
+    margem: 0;
+}
+fieldset {
+    borda: 1px sólido # C0C0C0;
+    margem: 0 2px;
+    preenchimento: 0,35em 0,625em 0,75em;
+}
+lenda {
+    fronteira: 0 nenhum;
+    preenchimento: 0;
+    espaço em branco: normal;
+}
+botão, entrada, selecionar, área de texto {
+    tamanho da fonte: 100%;
+    margem: 0;
+    alinhamento vertical: linha de base;
+}
+botão, entrada {
+    altura da linha: normal;
+}
+botão, entrada html [type = "botão"], entrada [type = "reset"], entrada [type = "enviar"] {
+    cursor: ponteiro;
+}
+botão [desativado], entrada [desativado] {
+    cursor: padrão;
+}
+input [type = "checkbox"], input [type = "radio"] {
+    preenchimento: 0;
+}
+input [type = "search"] {
+    -moz-box-sizing: content-box;
+}
+botão :: - moz-focus-inner, input :: - moz-focus-inner {
+    fronteira: 0 nenhum;
+    preenchimento: 0;
+}
+textarea {
+    estouro: automático;
+    alinhamento vertical: topo;
+}
+mesa {
+    colapso da fronteira: colapso;
+    espaçamento de borda: 0;
+}

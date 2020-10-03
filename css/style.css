@@ -1,0 +1,779 @@
+@import "http://fonts.googleapis.com/css?family=Rye";
+corpo {
+	fundo: url ("../ img / bg.jpg") repetir;
+	margem: 0;
+}
+#a Principal {
+	cor: #FFFFFF;
+	família da fonte: Arial, Helvetica, sans-serif;
+	tamanho da fonte: 12px;
+	peso da fonte: normal;
+	altura: automático;
+	margem: automático;
+	largura: 980px;
+}
+#main p {
+	cor: # 666666;
+	família da fonte: Arial, Helvetica, sans-serif;
+	tamanho da fonte: 12px;
+	peso da fonte: normal;
+	altura: automático;
+	altura da linha: 17px;
+	margem: 15px 0;
+	largura: 960px;
+	preenchimento: 0 10px;
+}
+#main pa {
+	cor: # 666666;
+	família da fonte: Arial, Helvetica, sans-serif;
+	tamanho da fonte: 12px;
+	peso da fonte: normal;
+	decoração de texto: nenhum;
+}
+#main> seção {
+	altura: automático;
+	margem: 0;
+	largura: automático;
+}
+#main> fonte da seção {
+	cor: # D2D2D3;
+	tamanho da fonte: 18px;
+	preenchimento: 0 0 0 10px;
+}
+
+.link-interno {decoração de texto: nenhum;}
+
+h1 {
+	cor: # 0097DB;
+	família da fonte: 'Rye', cursiva;
+	tamanho da fonte: 40px;
+	peso da fonte: normal;
+	altura da linha: 35px;
+	margem: 0;
+	preenchimento: 0 0 0 20px;
+	alinhamento de texto: esquerda;
+	largura: automático;
+}
+h1 a, h1 a: hover {
+	cor: # 0097DB;
+	esboço: 0 nenhum;
+	decoração de texto: nenhum;
+}
+Fonte {
+	cor: # D2D2D3;
+	tamanho da fonte: 18px;
+	preenchimento: 0 0 0 20px;
+}
+h5 {
+	cor: # 0097DB;
+	família da fonte: 'Rye', cursiva;
+	tamanho da fonte: 15px;
+	peso da fonte: normal;
+	altura da linha: 35px;
+	margem: 0;
+	preenchimento: 0 10px;
+	alinhamento de texto: esquerda;
+	largura: automático;
+}
+
+h6 {
+	cor: # 0097DB;
+	família da fonte: 'Rye', cursiva;
+	tamanho da fonte: 25px;
+	peso da fonte: normal;
+	altura da linha: 35px;
+	margem: 0;
+	preenchimento: 0;
+	alinhamento de texto: esquerda;
+	largura: automático;
+}
+
+iframe {
+   cor de fundo: transparente;
+}
+/ * Rodapé interno * /
+footer {
+	border-top: 1px solid #ddd;
+	altura: automático;
+	margem: 0 automático;
+	preenchimento: 0;
+	largura: 980px;
+}
+rodapé p {
+	cor: # B2B2B3;
+	tamanho da fonte: 12px;
+	preenchimento: 0 20px 20px;
+	alinhamento de texto: centro;
+}
+rodapé span {
+	cor: # B2B2B3;
+	tamanho da fonte: 12px;
+	preenchimento: 0 20px 20px;
+	flutuar: certo;
+}
+rodapé> cabeçalho {
+	altura: automático;
+	margem: 0 automático;
+	preenchimento: 0;
+	largura: 980px;
+}
+#Formato {
+	border-bottom: 1px solid #ddd;
+	display: bloco;
+	flutuar: esquerda;
+	altura: automático;
+	margem: 20px 0;
+	largura: 980px;
+}
+#form h3 {
+	cor: # 0097DB;
+	família da fonte: 'Rye', cursiva;
+	tamanho da fonte: 30px;
+	peso da fonte: normal;
+	margem: 0 0 10px 20px;
+}
+#formulario {
+	display: bloco;
+	flutuar: esquerda;
+	altura: automático;
+	margem: 10px 20px 20px;
+	largura: 570px;
+}
+#formulario font {
+	cor: # 666666;
+	família da fonte: Arial, Helvetica, sans-serif;
+	tamanho da fonte: 12px;
+	peso da fonte: normal;
+	altura: automático;
+	altura da linha: 17px;
+	margem: 15px 0;
+}
+# formulario-txt {
+	display: bloco;
+	flutuar: certo;
+	altura: 300px;
+	preenchimento: 0;
+	largura: 300px;
+}
+# formulario-txt p {
+	cor: # B2B2B3;
+	tamanho da fonte: 12px;
+	display: bloco;
+	preenchimento: 20px 0 0 0;
+	alinhamento de texto: centro;
+}
+# formulario-txt pb {
+	tamanho da fonte: 16px;
+	preenchimento: 0;
+	cor: # 0097DB;
+	altura da linha: 50px;
+	alinhamento de texto: esquerda;
+}
+# formulario-txt span {
+	cor: # B2B2B3;
+	tamanho da fonte: 18px;
+	peso da fonte: normal;
+	altura da linha: 25px;
+	alinhamento de texto: centro;
+}
+# redes-sociais {
+	flutuar: certo;
+	altura: automático;
+	largura: 200px;
+}
+#conteudo {
+	flutuar: esquerda;
+	altura: automático;
+	largura: 400px;
+}
+
+#conteudo img {
+    preenchimento: 0 0 20px 20px;
+}
+
+#info {
+	borda esquerda: 2px tracejado # F1F1F1;
+	flutuar: certo;
+	altura: automático;
+	preenchimento: 30px;
+	largura: 250px;
+}
+#info h2 {
+	cor: # 0097DB;
+	display: bloco;
+	família da fonte: 'Rye', cursiva;
+	tamanho da fonte: 17px;
+	peso da fonte: normal;
+	altura: automático;
+	margem: 15px 0 0;
+}
+#info span {
+	cor: # B2B2B3;
+	display: bloco;
+	família da fonte: Arial, Helvetica, sans-serif;
+	tamanho da fonte: 12px;
+	estilo da fonte: itálico;
+	altura: automático;
+	margem: 15px 0;
+}
+#info span a {
+	cor: # B2B2B3;
+	família da fonte: Arial, Helvetica, sans-serif;
+	tamanho da fonte: 12px;
+	estilo da fonte: itálico;
+	altura: automático;
+	margem: 15px 0;
+	esboço: 0 nenhum;
+	decoração de texto: nenhum;
+}
+#info span a: hover {
+	cor: # B2B2B3;
+	esboço: 0 nenhum;
+	decoração de texto: nenhum;
+}
+a.skype {
+	background: url ("../ img / skype.png") sem repetição rolar para a esquerda no centro transparente;
+	display: bloco;
+	flutuar: esquerda;
+	altura: 50px;
+	largura: 49px;
+}
+a.skype:hover {
+	background: url ("../ img / skype.png") sem repetição rolar à direita no centro transparente;
+}
+/ * Rodapé interno * /
+
+/ * Avatar * /
+.imgholder {
+	posição: relativa;
+	largura: 220px;
+	altura: 120px;
+	raio da borda: 100px;
+	flutuar: esquerda;
+	margem: 30px 80px;
+}
+/ * estilo das miniaturas * /
+.imgholder img {
+	posição: absoluta;
+	esquerda: 0;
+	topo: 0;
+	largura: 120px;
+	altura: 120px;
+	índice z: 5;
+	opacidade: 0,5;
+	filtro: alfa (opacidade = 50);
+	raio da borda: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	sombra da caixa: 0 0 5px # 000;
+	transição: opacidade 0,7s atenuação 0,3s;
+	-moz-transição: opacidade 0,7s atenuação 0,3s;
+	-webkit-transição: opacidade 0,7s atenuação 0,3s;
+}
+.imgholder: hover img {
+	opacidade: 1;
+	filtro: alfa (opacidade = 100);
+}
+.imgholder figcaption {
+	posição: absoluta;
+	esquerda: 0;
+	topo: 120%;
+	largura: 120px;
+	cor: # 0097DB;
+	família da fonte: 'Rye', cursiva;
+	;
+	índice z: 4;
+}
+/ * Avatar * /
+.imgholder .circle {
+	posição: absoluta;
+	raio da borda: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+.imgholder .outer1 {
+	topo: -8px;
+	esquerda: -8px;
+	largura: 120px;
+	altura: 120px;
+	índice z: 2;
+	borda: 8px sólido;
+	border-color: #DEEBFC;
+	sombra da caixa: 0 0 3px # AFD3FF;
+	-moz-box-shadow: 0 0 3px # AFD3FF;
+	-webkit-box-shadow: 0 0 3px # AFD3FF;
+	plano de fundo: #ffffff;
+	plano de fundo: -moz-radial-gradiente (centro, cobertura da elipse, #ffffff 0%, # e2efff 100%);
+	fundo: -webkit-gradiente (radial, center center, 0px, center center, 100%, color-stop (0%, #ffffff), color-stop (100%, # e2efff));
+	plano de fundo: -webkit-radial-gradiente (centro, cobertura da elipse, #ffffff 0%, # e2efff 100%);
+	plano de fundo: -o-gradiente radial (centro, cobertura da elipse, # fffff 0%, # e2efff 100%);
+	plano de fundo: -ms-radial-gradiente (centro, cobertura da elipse, #ffffff 0%, # e2efff 100%);
+	plano de fundo: gradiente radial (centro, cobertura da elipse, #ffffff 0%, # e2efff 100%);
+ filtro: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# ffffff', endColorstr = '# e2efff', GradientType = 1);
+	transição: caixa-sombra 1s atenuação, borda-cor 1s;
+	-moz-transição: -moz-box-shadow 1s atenuação, border-color 1s;
+	-webkit-transição: -webkit-box-shadow 1s atenuação, border-color 1s;
+}
+.imgholder: hover .outer1 {
+	cor da borda: # 0088EA;
+	sombra da caixa: 0 0 10px # 0285E2;
+}
+.imgholder .outer2 {
+	topo: -18px;
+	esquerda: -18px;
+	largura: 136px;
+	altura: 136px;
+	índice z: 1;
+	borda: 10px sólido;
+	borda-cor: # 9BC8FF;
+	sombra da caixa: 0 0 3px # 8EB9FF;
+	-moz-box-shadow: 0 0 3px # 8EB9FF;
+	-webkit-box-shadow: 0 0 3px # 8EB9FF;
+	opacidade: 0;
+	filtro: alfa (opacidade = 0);
+	transição: opacidade 0.7s atenuação 0.3s, box-shadow 0.7s atenuação 0.3s;
+	-moz-transição: opacidade 0.7s atenuação 0.3s, -moz-box-shadow 0.7s atenuação 0.3s;
+	-webkit-transição: opacidade 0.7s atenuação 0.3s, -webkit-box-shadow 0.7s atenuação 0.3s;
+}
+.imgholder: hover .outer2 {
+	opacidade: 1;
+	filtro: alfa (opacidade = 100);
+	sombra da caixa: 0 0 20px # 8EB9FF;
+}
+/ * Avatar * /
+
+/ * redes sociais footer * /
+.buttons {
+	margem superior: 160px;
+	alinhamento de texto: centro;
+	margem: 20px 0 0 0;
+}
+.buttons a {
+	margem direita: 30px;
+	largura: 64px;
+	altura: 64px;
+	display: bloco embutido;
+	posição: relativa;
+	altura da linha: 64px;
+	cor de fundo: #eaeaea;
+	imagem de fundo: -webkit-gradiente (linear, superior esquerdo, inferior esquerdo, de (# f6f6f6), para (#eaeaea));
+	imagem de fundo: -webkit-linear-gradient (topo, # f6f6f6, #eaeaea);
+	imagem de fundo: -moz-linear-gradient (top, # f6f6f6, #eaeaea);
+	imagem de fundo: -ms-linear-gradient (top, # f6f6f6, #eaeaea);
+	imagem de fundo: -o-linear-gradiente (topo, # f6f6f6, #eaeaea);
+	imagem de fundo: gradiente linear (topo, # f6f6f6, #eaeaea);
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	raio da borda: 32px;
+	-moz-box-shadow: 0 1px 1px rgba (0, 0, 0, .25), 0 2px 3px rgba (0, 0, 0, .1);
+	-webkit-box-shadow: 0 1px 1px rgba (0, 0, 0, .25), 0 2px 3px rgba (0, 0, 0, .1);
+	box-shadow: 0 1px 1px rgba (0, 0, 0, .25), 0 2px 3px rgba (0, 0, 0, .1);
+}
+.buttons a: active {
+	topo: 1px;
+	imagem de fundo: -webkit-gradiente (linear, superior esquerdo, inferior esquerdo, de (#eaeaea) a (# f6f6f6));
+	imagem de fundo: -webkit-linear-gradient (topo, #eaeaea, # f6f6f6);
+	imagem de fundo: -moz-linear-gradient (top, #eaeaea, # f6f6f6);
+	imagem de fundo: -ms-linear-gradiente (topo, #eaeaea, # f6f6f6);
+	imagem de fundo: -o-linear-gradiente (topo, #eaeaea, # f6f6f6);
+	imagem de fundo: gradiente linear (topo, #eaeaea, # f6f6f6);
+}
+.buttons a :: before {
+	conteúdo: '';
+	posição: absoluta;
+	índice z: -1;
+	topo: -8px;
+	direita: -8px;
+	inferior: -8px;
+	esquerda: -8px;
+	cor de fundo: #eaeaea;
+	-moz-border-radius: 140px;
+	-webkit-border-radius: 140px;
+	raio da borda: 140px;
+	opacidade: 0,5;
+}
+.buttons a: active :: before {
+	topo: -9px;
+}
+.buttons a: hover :: before {
+	opacidade: 1;
+}
+.buttons a.twitter: hover :: before {
+	cor de fundo: #BFEFFC;
+}
+.buttons a.facebook: hover :: before {
+	cor de fundo: # 9CAFD6;
+}
+.buttons a.Linkedin: hover :: before {
+	cor de fundo: # A2C6D8;
+}
+.buttons a.rss: hover :: before {
+	cor de fundo: # f8ebb6;
+}
+.twitter img {
+	alinhamento vertical: -7px;
+}
+.Linkedin img {
+	alinhamento vertical: -12px;
+}
+.facebook img {
+	alinhamento vertical: -12px;
+}
+.rss img {
+	alinhamento vertical: -7px;
+}
+.buttons a img {
+	fronteira: 0;
+}
+/ * redes sociais footer * /
+/ * abas * /
+
+/ * iPads (restrato e paisagem) * /
+/ * Media Querie 1: Para adequação do layout em telas menores que 768px de largura * /
+@media screen e (largura máxima: 768 px)
+{
+   
+   corpo {
+    background: url ("../ img / bg.jpg") repita scroll 0 0 transparente;
+    margem: 0;
+}
+#a Principal {
+    cor: #FFFFFF;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    peso da fonte: normal;
+    altura: automático;
+    margem: automático;
+    largura: 768px;
+}
+#main p {
+    cor: # 666666;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    peso da fonte: normal;
+    altura: automático;
+    altura da linha: 17px;
+    margem: 15px 0;
+    largura: automático;
+}
+#main> seção {
+    altura: automático;
+    margem: 0;
+    largura: automático;
+}
+h1 {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 40px;
+    peso da fonte: normal;
+    altura da linha: 35px;
+    margem: 0;
+    preenchimento: 0 0 0 20px;
+    alinhamento de texto: esquerda;
+    largura: automático;
+}
+h1 a, h1 a: hover {
+    cor: # 0097DB;
+    esboço: 0 nenhum;
+    decoração de texto: nenhum;
+}
+Fonte {
+    cor: # D2D2D3;
+    tamanho da fonte: 18px;
+	preenchimento: 0 0 0 20px;
+}
+h5 {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 15px;
+    peso da fonte: normal;
+    altura da linha: 35px;
+    margem: 0;
+    preenchimento: 0 10px;
+    alinhamento de texto: esquerda;
+    largura: automático;
+}
+h6 {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 25px;
+    peso da fonte: normal;
+    altura da linha: 35px;
+    margem: 0;
+    preenchimento: 0 10px;
+    alinhamento de texto: esquerda;
+    largura: automático;
+}
+footer {
+    borda superior: 1px sólido #DDDDDD;
+    altura: automático;
+    margem: 0 automático;
+    preenchimento: 0;
+    largura: 768px;
+}
+rodapé p {
+    cor: # B2B2B3;
+    tamanho da fonte: 12px;
+    preenchimento: 0 20px 20px;
+    alinhamento de texto: centro;
+}
+rodapé span {
+    cor: # B2B2B3;
+    flutuar: certo;
+    tamanho da fonte: 12px;
+    preenchimento: 0 20px 20px;
+}
+rodapé> cabeçalho {
+    altura: automático;
+    margem: 0 automático;
+    preenchimento: 0;
+    largura: 768px;
+}
+#Formato {
+    borda inferior: 1px sólido #DDDDDD;
+    display: bloco;
+    flutuar: esquerda;
+    altura: automático;
+    margem: 20px 0;
+    largura: 760px;
+}
+#form h3 {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 30px;
+    peso da fonte: normal;
+    margem: 0 0 10px 20px;
+}
+#formulario {
+    display: bloco;
+    flutuar: esquerda;
+    altura: automático;
+    margem: 10px 20px 20px;
+    largura: 370px;
+}
+# formulario-txt {
+    display: bloco;
+    flutuar: certo;
+    altura: 300px;
+    preenchimento: 0;
+    largura: 300px;
+}
+# formulario-txt p {
+    cor: # B2B2B3;
+    display: bloco;
+    tamanho da fonte: 12px;
+    preenchimento: 20px 0 0;
+    alinhamento de texto: centro;
+}
+# formulario-txt pb {
+    cor: # 0097DB;
+    tamanho da fonte: 16px;
+    altura da linha: 50px;
+    preenchimento: 0;
+    alinhamento de texto: esquerda;
+}
+# formulario-txt span {
+    cor: # B2B2B3;
+    tamanho da fonte: 18px;
+    peso da fonte: normal;
+    altura da linha: 25px;
+    alinhamento de texto: centro;
+}
+# redes-sociais {
+    flutuar: certo;
+    altura: automático;
+    largura: 200px;
+}
+#conteudo {
+    flutuar: esquerda;
+    altura: automático;
+    largura: 400px;
+}
+#conteudo img {
+	largura máxima: 400px;
+	preenchimento: 0 0 20px 20px;
+}
+#info {
+    borda esquerda: 2px tracejado # F1F1F1;
+    flutuar: certo;
+    altura: automático;
+    preenchimento: 30px;
+    largura: 250px;
+}
+#info h2 {
+    cor: # 0097DB;
+    display: bloco;
+    família da fonte: 'Rye', cursiva;
+    tamanho da fonte: 17px;
+    peso da fonte: normal;
+    altura: automático;
+    margem: 15px 0 0;
+}
+#info span {
+    cor: # B2B2B3;
+    display: bloco;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    estilo da fonte: itálico;
+    altura: automático;
+    margem: 15px 0;
+}
+#info span a {
+    cor: # B2B2B3;
+    família da fonte: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 12px;
+    estilo da fonte: itálico;
+    altura: automático;
+    margem: 15px 0;
+    esboço: 0 nenhum;
+    decoração de texto: nenhum;
+}
+#info span a: hover {
+    cor: # B2B2B3;
+    esboço: 0 nenhum;
+    decoração de texto: nenhum;
+}
+a.skype {
+    background: url ("../ img / skype.png") sem repetição rolar para a esquerda no centro transparente;
+    display: bloco;
+    flutuar: esquerda;
+    altura: 50px;
+    largura: 49px;
+}
+a.skype:hover {
+    background: url ("../ img / skype.png") sem repetição rolar à direita no centro transparente;
+}
+.imgholder {
+    border-radius: 100px 100px 100px 100px;
+    flutuar: esquerda;
+    altura: 120px;
+    margem: 30px 80px;
+    posição: relativa;
+    largura: 120px;
+}
+.imgholder img {
+    border-radius: 100px 100px 100px 100px;
+    sombra da caixa: 0 0 5px # 000000;
+    altura: 120px;
+    esquerda: 0;
+    opacidade: 0,5;
+    posição: absoluta;
+    topo: 0;
+    transição: opacidade 0,7s atenuação 0,3s;
+    largura: 120px;
+    índice z: 5;
+}
+.imgholder: hover img {
+    opacidade: 1;
+}
+.imgholder figcaption {
+    cor: # 0097DB;
+    família da fonte: 'Rye', cursiva;
+    esquerda: 0;
+    posição: absoluta;
+    topo: 120%;
+    largura: 120px;
+    índice z: 4;
+}
+.imgholder .circle {
+    border-radius: 100px 100px 100px 100px;
+    posição: absoluta;
+}
+.imgholder .outer1 {
+    fundo: gradiente radial (elipse no canto mais distante no centro, #FFFFFF 0%, # E2EFFF 100%) repetir a rolagem 0 0 transparente;
+    borda: 8px sólido #DEEBFC;
+    sombra da caixa: 0 0 3px # AFD3FF;
+    altura: 120px;
+    esquerda: -8px;
+    topo: -8px;
+    transição: -moz-box-shadow 1s atenuação 0s, border-color 1s atenuação 0s;
+    largura: 120px;
+    índice z: 2;
+}
+.imgholder: hover .outer1 {
+    cor da borda: # 0088EA;
+    sombra da caixa: 0 0 10px # 0285E2;
+}
+.imgholder .outer2 {
+    borda: 10px sólido # 9BC8FF;
+    sombra da caixa: 0 0 3px # 8EB9FF;
+    altura: 136px;
+    esquerda: -18px;
+    opacidade: 0;
+    topo: -18px;
+    transição: opacidade 0.7s atenuação 0.3s, -moz-box-shadow 0.7s atenuação 0.3s;
+    largura: 136px;
+    índice z: 1;
+}
+.imgholder: hover .outer2 {
+    sombra da caixa: 0 0 20px # 8EB9FF;
+    opacidade: 1;
+}
+.buttons {
+    margem: 20px 0 0;
+    alinhamento de texto: centro;
+}
+.buttons a {
+    cor de fundo: #EAEAEA;
+    imagem de fundo: -moz-linear-gradient (centro superior, # F6F6F6, #EAEAEA);
+    border-radius: 32px 32px 32px 32px;
+    box-shadow: 0 1px 1px rgba (0, 0, 0, 0,25), 0 2px 3px rgba (0, 0, 0, 0,1);
+    display: bloco embutido;
+    altura: 64px;
+    altura da linha: 64px;
+    margem direita: 30px;
+    posição: relativa;
+    largura: 64px;
+}
+.buttons a: active {
+    imagem de fundo: -moz-linear-gradiente (centro superior, #EAEAEA, # F6F6F6);
+    topo: 1px;
+}
+.buttons a: before {
+    cor de fundo: #EAEAEA;
+    border-radius: 140px 140px 140px 140px;
+    inferior: -8px;
+    conteúdo: "";
+    esquerda: -8px;
+    opacidade: 0,5;
+    posição: absoluta;
+    direita: -8px;
+    topo: -8px;
+    índice z: -1;
+}
+.buttons a: active: before {
+    topo: -9px;
+}
+.buttons a: hover: before {
+    opacidade: 1;
+}
+.buttons a.github: hover: before {
+    cor de fundo: # BFEFFC;
+}
+.buttons a.facebook: hover: before {
+    cor de fundo: # 9CAFD6;
+}
+.buttons a.Linkedin: hover: before {
+    cor de fundo: # A2C6D8;
+}
+.buttons a.rss: hover: before {
+    cor de fundo: # F8EBB6;
+}
+}
+.Linkedin img {
+    alinhamento vertical: -12px;
+}
+.facebook img {
+    alinhamento vertical: -12px;
+}
+}
+.github img {
+    alinhamento vertical: -12px;
+}
+.rss img {
+    alinhamento vertical: -7px;
+}
+.buttons a img {
+    fronteira: 0 nenhum;
+}
+}
